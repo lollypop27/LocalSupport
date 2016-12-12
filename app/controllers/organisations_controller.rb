@@ -119,10 +119,6 @@ class OrganisationsController < BaseOrganisationsController
         category_ids: []
       )
     end
-
-    def entity
-      @organisation
-    end
   end
 
   private
